@@ -27,6 +27,7 @@
     "react-hooks/exhaustive-deps": "warn",
     "react/react-in-jsx-scope": "off",
     "prettier/prettier": "error",
+    "no-undef": "off",
     "import-helpers/order-imports": [
       "warn",
       {
