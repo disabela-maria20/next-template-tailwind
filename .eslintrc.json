@@ -26,8 +26,11 @@
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/react-in-jsx-scope": "off",
-    "prettier/prettier": "error",
+    "prettier/prettier":["error", {
+      "endOfLine": "auto"
+    }] ,
     "no-undef": "off",
+    "linebreak-style": "off",
     "import-helpers/order-imports": [
       "warn",
       {
